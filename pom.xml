@@ -52,28 +52,24 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			<artifactId>semanticcms-core-all</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-dia-all</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-file-all</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-all</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
@@ -85,7 +81,6 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			<artifactId>semanticcms-section-all</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
