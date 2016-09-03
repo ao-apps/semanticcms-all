@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+semanticcms-all - Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.
+Copyright (C) 2016  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of semanticcms-all.
+
+semanticcms-all is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+semanticcms-all is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.semanticcms</groupId>
+		<artifactId>semanticcms</artifactId>
+		<version>1.2-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.semanticcms</groupId>
+	<artifactId>semanticcms-all</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>SemanticCMS All</name>
+	<url>https://semanticcms.com/docs/semanticcms-all/</url>
+	<description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</description>
+
+	<scm>
+		<connection>scm:git:git://github.com/aoindustries/semanticcms-all.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-all.git</developerConnection>
+		<url>http://github.com/aoindustries/semanticcms-all</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-core</artifactId>
+			<version>1.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-dia</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-file</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-openfile</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-pagegraph</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-section</artifactId>
+			<version>1.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-sitemap-servlet</artifactId>
+			<version>1.6-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-view-all</artifactId>
+			<version>1.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-view-tree</artifactId>
+			<version>1.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-view-what-links-here</artifactId>
+			<version>1.2-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
