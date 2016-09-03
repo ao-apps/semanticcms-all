@@ -27,7 +27,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms</artifactId>
-		<version>1.2-SNAPSHOT</version>
+		<version>1.2</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -50,57 +50,57 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-core-all</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-dia-all</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-file-all</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-all</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-pagegraph</artifactId>
-			<version>1.1-SNAPSHOT</version>
+			<version>1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-all</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-sitemap-servlet</artifactId>
-			<version>1.6-SNAPSHOT</version>
+			<version>1.6</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-all</artifactId>
-			<version>1.2-SNAPSHOT</version>
+			<version>1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-tree</artifactId>
-			<version>1.2-SNAPSHOT</version>
+			<version>1.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-what-links-here</artifactId>
-			<version>1.2-SNAPSHOT</version>
+			<version>1.2</version>
 		</dependency>
 	</dependencies>
 </project>
