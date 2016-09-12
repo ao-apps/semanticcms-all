@@ -38,6 +38,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 	<name>SemanticCMS All</name>
 	<url>https://semanticcms.com/all/</url>
 	<description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-all.git</connection>
