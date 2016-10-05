@@ -92,17 +92,17 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-all</artifactId>
-			<version>1.4-SNAPSHOT</version>
+			<version>1.4.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-tree</artifactId>
-			<version>1.4-SNAPSHOT</version>
+			<version>1.4.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-what-links-here</artifactId>
-			<version>1.4-SNAPSHOT</version>
+			<version>1.4.0</version>
 		</dependency>
 	</dependencies>
 </project>
