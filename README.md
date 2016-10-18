@@ -10,6 +10,7 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [SemanticCMS Core All](https://semanticcms.com/core/all/)
 * [SemanticCMS Dia All](https://semanticcms.com/dia/all/)
 * [SemanticCMS File All](https://semanticcms.com/file/all/)
+* [SemanticCMS Google Analytics](https://semanticcms.com/google-analytics/)
 * [SemanticCMS News All](https://semanticcms.com/news/all/)
 * [SemanticCMS OpenFile All](https://semanticcms.com/openfile/all/)
 * [SemanticCMS PageGraph](https://semanticcms.com/pagegraph/)
