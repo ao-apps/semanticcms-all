@@ -107,7 +107,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-view-what-links-here</artifactId>
-			<version>1.4.1-SNAPSHOT</version>
+			<version>1.4.1</version>
 		</dependency>
 	</dependencies>
 </project>
