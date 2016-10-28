@@ -19,9 +19,6 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [SemanticCMS View Tree](https://semanticcms.com/view-tree/)
 * [SemanticCMS View What Links Here](https://semanticcms.com/view-what-links-here/)
 
-## Modules
-* [SemanticCMS All Book](https://semanticcms.com/all/book/)
-
 ## Contact Us
 For questions or support, please [contact us](https://www.aoindustries.com/contact):
 
