@@ -8,6 +8,7 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [GitHub](https://github.com/aoindustries/semanticcms-all)
 
 ## Modules Included
+* [SemanticCMS Changelog Taglib](https://semanticcms.com/changelog/taglib/)
 * [SemanticCMS Core All](https://semanticcms.com/core/all/)
 * [SemanticCMS Dia All](https://semanticcms.com/dia/all/)
 * [SemanticCMS File All](https://semanticcms.com/file/all/)

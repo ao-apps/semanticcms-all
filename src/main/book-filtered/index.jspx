@@ -49,6 +49,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		</section:section>
 		<section:section label="Modules Included">
 			<ul>
+				<li><core:link book="/changelog/taglib" page="/index.jspx" /></li>
 				<li><core:link book="/core/all" page="/index.jspx" /></li>
 				<li><core:link book="/dia/all" page="/index.jspx" /></li>
 				<li><core:link book="/file/all" page="/index.jspx" /></li>
