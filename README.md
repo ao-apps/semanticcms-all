@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://www.aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [All](https://semanticcms.com/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [All](https://semanticcms.com/all/)
 Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features, not including documentation, [AutoGit](https://semanticcms.com/autogit/), or theme.
 
 ## Project Links
@@ -22,9 +22,9 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [SemanticCMS View What Links Here](https://semanticcms.com/view-what-links-here/)
 
 ## Contact Us
-For questions or support, please [contact us](https://www.aoindustries.com/contact):
+For questions or support, please [contact us](https://aoindustries.com/contact):
 
 Email: [support@aoindustries.com](mailto:support@aoindustries.com)  
 Phone: [1-800-519-9541](tel:1-800-519-9541)  
 Phone: [+1-251-607-9556](tel:+1-251-607-9556)  
-Web: https://www.aoindustries.com/contact
+Web: https://aoindustries.com/contact
