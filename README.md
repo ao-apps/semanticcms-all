@@ -17,6 +17,7 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [SemanticCMS OpenFile All](https://semanticcms.com/openfile/all/)
 * [SemanticCMS PageGraph](https://semanticcms.com/pagegraph/)
 * [SemanticCMS Section All](https://semanticcms.com/section/all/)
+* [SemanticCMS Tag Reference](https://semanticcms.com/tag-reference/)
 * [SemanticCMS View All](https://semanticcms.com/view-all/)
 * [SemanticCMS View Tree](https://semanticcms.com/view-tree/)
 * [SemanticCMS View What Links Here](https://semanticcms.com/view-what-links-here/)

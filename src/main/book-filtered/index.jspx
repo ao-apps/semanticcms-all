@@ -33,7 +33,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{shortTitle}"
 		description="@{project.description}"
 		datePublished="2016-10-19T02:34:00-0500"
-		dateModified="2016-10-28T00:11:09-0500"
+		dateModified="2016-11-06T02:48:43-0600"
 	>
 		<core:child page="changelog.jspx" />
 		<p>
@@ -58,6 +58,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<li><core:link book="/openfile/all" page="/index.jspx" /></li>
 				<li><core:link book="/pagegraph" page="/index.jspx" /></li>
 				<li><core:link book="/section/all" page="/index.jspx" /></li>
+				<li><core:link book="/tag-reference" page="/index.jspx" /></li>
 				<li><core:link book="/view-all" page="/index.jspx" /></li>
 				<li><core:link book="/view-tree" page="/index.jspx" /></li>
 				<li><core:link book="/view-what-links-here" page="/index.jspx" /></li>
