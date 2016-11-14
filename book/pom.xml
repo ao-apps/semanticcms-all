@@ -26,9 +26,9 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<parent>
 		<groupId>com.semanticcms</groupId>
-		<artifactId>semanticcms</artifactId>
-		<version>1.5.1-SNAPSHOT</version>
-		<relativePath>../../pom.xml</relativePath>
+		<artifactId>semanticcms-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -40,13 +40,11 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<!-- These values are copied from the project being documented -->
 		<documented.groupId>com.semanticcms</documented.groupId>
 		<documented.artifactId>semanticcms-all</documented.artifactId>
-
 		<documented.name>SemanticCMS All</documented.name>
 		<documented.shortTitle>All</documented.shortTitle>
 		<documented.url>https://semanticcms.com/all/</documented.url>
 		<documented.description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</documented.description>
 		<documented.inceptionYear>2016</documented.inceptionYear>
-
 		<documented.scm.url>https://github.com/aoindustries/${documented.artifactId}</documented.scm.url>
 
 		<description.html><![CDATA[Documentation for <a target="_top" href="${documented.url}">${documented.name}</a> in <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
@@ -64,31 +62,6 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<url>${documented.scm.url}</url>
 		<tag>HEAD</tag>
 	</scm>
-
-	<profiles>
-		<profile>
-			<id>release</id>
-			<build>
-				<pluginManagement>
-					<plugins>
-						<plugin>
-							<groupId>org.apache.maven.plugins</groupId>
-							<artifactId>maven-javadoc-plugin</artifactId>
-							<configuration>
-								<links>
-									<link>https://docs.oracle.com/javaee/6/api/</link>
-									<link>https://aoindustries.com/ao-taglib/apidocs/</link>
-									<link>https://semanticcms.com/changelog/taglib/apidocs/</link>
-									<link>https://semanticcms.com/core/taglib/apidocs/</link>
-									<link>https://semanticcms.com/section/taglib/apidocs/</link>
-								</links>
-							</configuration>
-						</plugin>
-					</plugins>
-				</pluginManagement>
-			</build>
-		</profile>
-	</profiles>
 
 	<dependencies>
 		<dependency>
@@ -147,6 +120,15 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-taglib</artifactId>
 			<version>1.4.2-SNAPSHOT</version>
+		</dependency>
+		<!-- Dependency for dependencyversion-maven-plugin only -->
+		<dependency>
+			<groupId>com.semanticcms</groupId>
+			<artifactId>semanticcms-all</artifactId>
+			<version>1.3.1-SNAPSHOT</version>
+			<type>pom</type>
+			<scope>provided</scope>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 </project>
