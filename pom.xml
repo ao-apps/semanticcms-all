@@ -64,13 +64,13 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-dia-all</artifactId>
-			<version>1.2.2</version>
+			<version>1.2.3-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-file-all</artifactId>
-			<version>1.2.2</version>
+			<version>1.2.3-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
@@ -81,7 +81,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-all</artifactId>
-			<version>1.1.2</version>
+			<version>1.1.3-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
@@ -98,7 +98,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-section-all</artifactId>
-			<version>1.2.2</version>
+			<version>1.2.3-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
