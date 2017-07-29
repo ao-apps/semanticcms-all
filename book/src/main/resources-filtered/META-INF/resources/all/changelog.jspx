@@ -55,6 +55,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Updated version of <core:link book="/core/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
