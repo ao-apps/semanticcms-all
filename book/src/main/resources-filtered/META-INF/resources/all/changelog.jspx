@@ -54,18 +54,18 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/changelog/taglib" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/core/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/dia/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/file/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/news/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/section/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/view-all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/view-tree" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/view-what-links-here" page="/index.jspx" />.</li>
-					<li>New module <core:link book="/resources/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+					<li>Updated version of <core:link book="/core/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/file/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/news/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/section/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+					<li>Updated version of <core:link book="/view-all" page="/" />.</li>
+					<li>Updated version of <core:link book="/view-tree" page="/" />.</li>
+					<li>Updated version of <core:link book="/view-what-links-here" page="/" />.</li>
+					<li>New module <core:link book="/resources/all" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
@@ -94,10 +94,10 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
-				<li>Project documentation moved to per-project book in <core:link book="/" page="/index.jspx" /> format.</li>
+				<li>Project documentation moved to per-project book in <core:link book="/" page="/" /> format.</li>
 				<li>Added changelog as top-level project link.</li>
-				<li><core:link book="/changelog/taglib" page="/index.jspx" /> module added to this "all" package.</li>
-				<li><core:link book="/tag-reference" page="/index.jspx" /> module added to this "all" package.</li>
+				<li><core:link book="/changelog/taglib" page="/" /> module added to this "all" package.</li>
+				<li><core:link book="/tag-reference" page="/" /> module added to this "all" package.</li>
 			</ul>
 		</changelog:release>
 

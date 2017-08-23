@@ -36,7 +36,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		datePublished="2016-10-19T02:34:00-0500"
 		dateModified="2017-07-18T20:35:30-0500"
 	>
-		<core:child page="changelog.jspx" />
+		<core:child page="changelog" />
 		<ao:include
 			page="/ao-badges/badges.inc.jspx"
 			arg.projectStatus="${currentPage.property.projectStatus}"
@@ -48,31 +48,31 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			arg.license="${currentPage.property.license}"
 		/>
 		<p>
-			Convenience POM to include most <core:link book="/" page="/index.jspx" /> features, not including documentation, <core:link book="/autogit" page="/index.jspx" />, or theme.
+			Convenience POM to include most <core:link book="/" page="/" /> features, not including documentation, <core:link book="/autogit" page="/" />, or theme.
 		</p>
 		<section:section label="Project Links">
 			<ul>
-				<li><core:link page="index.jspx">Project Home</core:link></li>
-				<li><core:link page="changelog.jspx">Changelog</core:link></li>
+				<li><core:link page="/">Project Home</core:link></li>
+				<li><core:link page="changelog">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:section>
 		<section:section label="Modules Included">
 			<ul>
-				<li><core:link book="/changelog/taglib" page="/index.jspx" /></li>
-				<li><core:link book="/core/all" page="/index.jspx" /></li>
-				<li><core:link book="/dia/all" page="/index.jspx" /></li>
-				<li><core:link book="/file/all" page="/index.jspx" /></li>
-				<li><core:link book="/google-analytics" page="/index.jspx" /></li>
-				<li><core:link book="/news/all" page="/index.jspx" /></li>
-				<li><core:link book="/openfile/all" page="/index.jspx" /></li>
-				<li><core:link book="/pagegraph" page="/index.jspx" /></li>
-				<li><core:link book="/section/all" page="/index.jspx" /></li>
-				<li><core:link book="/tag-reference" page="/index.jspx" /></li>
-				<li><core:link book="/view-all" page="/index.jspx" /></li>
-				<li><core:link book="/view-tree" page="/index.jspx" /></li>
-				<li><core:link book="/view-what-links-here" page="/index.jspx" /></li>
+				<li><core:link book="/changelog/taglib" page="/" /></li>
+				<li><core:link book="/core/all" page="/" /></li>
+				<li><core:link book="/dia/all" page="/" /></li>
+				<li><core:link book="/file/all" page="/" /></li>
+				<li><core:link book="/google-analytics" page="/" /></li>
+				<li><core:link book="/news/all" page="/" /></li>
+				<li><core:link book="/openfile/all" page="/" /></li>
+				<li><core:link book="/pagegraph" page="/" /></li>
+				<li><core:link book="/section/all" page="/" /></li>
+				<li><core:link book="/tag-reference" page="/" /></li>
+				<li><core:link book="/view-all" page="/" /></li>
+				<li><core:link book="/view-tree" page="/" /></li>
+				<li><core:link book="/view-what-links-here" page="/" /></li>
 			</ul>
 		</section:section>
 	</core:page>
