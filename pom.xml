@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-all - Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.
-Copyright (C) 2016, 2017  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,7 +36,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.4.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>SemanticCMS All</name>
+	<name>SemanticCMS 1 All</name>
 	<url>https://semanticcms.com/all/</url>
 	<description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</description>
 	<inceptionYear>2016</inceptionYear>
