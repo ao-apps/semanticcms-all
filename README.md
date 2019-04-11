@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [All](https://semanticcms.com/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [All](https://github.com/aoindustries/semanticcms-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features, not including documentation, [AutoGit](https://semanticcms.com/autogit/), or theme.
+Convenience POM to include most [SemanticCMS](https://github.com/aoindustries/semanticcms) features, not including documentation, [AutoGit](https://github.com/aoindustries/semanticcms-autogit), or theme.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/all/)
@@ -33,19 +33,19 @@ Convenience POM to include most [SemanticCMS](https://semanticcms.com/) features
 * [GitHub](https://github.com/aoindustries/semanticcms-all)
 
 ## Modules Included
-* [SemanticCMS Changelog Taglib](https://semanticcms.com/changelog/taglib/)
-* [SemanticCMS Core All](https://semanticcms.com/core/all/)
-* [SemanticCMS Dia All](https://semanticcms.com/dia/all/)
-* [SemanticCMS File All](https://semanticcms.com/file/all/)
-* [SemanticCMS Google Analytics](https://semanticcms.com/google-analytics/)
-* [SemanticCMS News All](https://semanticcms.com/news/all/)
-* [SemanticCMS OpenFile All](https://semanticcms.com/openfile/all/)
-* [SemanticCMS PageGraph](https://semanticcms.com/pagegraph/)
-* [SemanticCMS Section All](https://semanticcms.com/section/all/)
-* [SemanticCMS Tag Reference](https://semanticcms.com/tag-reference/)
-* [SemanticCMS View All](https://semanticcms.com/view-all/)
-* [SemanticCMS View Tree](https://semanticcms.com/view-tree/)
-* [SemanticCMS View What Links Here](https://semanticcms.com/view-what-links-here/)
+* [SemanticCMS Changelog Taglib](https://github.com/aoindustries/semanticcms-changelog-taglib)
+* [SemanticCMS Core All](https://github.com/aoindustries/semanticcms-core-all)
+* [SemanticCMS Dia All](https://github.com/aoindustries/semanticcms-dia-all)
+* [SemanticCMS File All](https://github.com/aoindustries/semanticcms-file-all)
+* [SemanticCMS Google Analytics](https://github.com/aoindustries/semanticcms-google-analytics)
+* [SemanticCMS News All](https://github.com/aoindustries/semanticcms-news-all)
+* [SemanticCMS OpenFile All](https://github.com/aoindustries/semanticcms-openfile-all)
+* [SemanticCMS PageGraph](https://github.com/aoindustries/semanticcms-pagegraph)
+* [SemanticCMS Section All](https://github.com/aoindustries/semanticcms-section-all)
+* [SemanticCMS Tag Reference](https://github.com/aoindustries/semanticcms-tag-reference)
+* [SemanticCMS View All](https://github.com/aoindustries/semanticcms-view-all)
+* [SemanticCMS View Tree](https://github.com/aoindustries/semanticcms-view-tree)
+* [SemanticCMS View What Links Here](https://github.com/aoindustries/semanticcms-view-what-links-here)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
