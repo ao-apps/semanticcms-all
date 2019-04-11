@@ -34,8 +34,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<properties>
 		<!-- These values are copied from the project being documented -->
-		<documented.groupId>com.semanticcms</documented.groupId>
-		<documented.artifactId>semanticcms-all</documented.artifactId>
+		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-all</documented.artifactId>
 		<documented.javaVersion>1.8</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk18}</documented.javac.link.javaApi>
 		<documented.name>SemanticCMS 1 All</documented.name>
