@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-all</documented.artifactId>
 		<documented.javaVersion>1.8</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
-		<documented.name>SemanticCMS 1 All</documented.name>
+		<documented.name>SemanticCMS All</documented.name>
 		<documented.shortTitle>All</documented.shortTitle>
 		<documented.url>https://semanticcms.com/all/</documented.url>
 		<documented.description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</documented.description>
