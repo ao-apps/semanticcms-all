@@ -41,6 +41,8 @@ Convenience POM to include most [SemanticCMS](https://github.com/aoindustries/se
 * [SemanticCMS News All](https://github.com/aoindustries/semanticcms-news-all)
 * [SemanticCMS OpenFile All](https://github.com/aoindustries/semanticcms-openfile-all)
 * [SemanticCMS PageGraph](https://github.com/aoindustries/semanticcms-pagegraph)
+* [SemanticCMS Pages All](https://github.com/aoindustries/semanticcms-pages-all)
+* [SemanticCMS Resources All](https://github.com/aoindustries/semanticcms-resources-all)
 * [SemanticCMS Section All](https://github.com/aoindustries/semanticcms-section-all)
 * [SemanticCMS Tag Reference](https://github.com/aoindustries/semanticcms-tag-reference)
 * [SemanticCMS View All](https://github.com/aoindustries/semanticcms-view-all)
