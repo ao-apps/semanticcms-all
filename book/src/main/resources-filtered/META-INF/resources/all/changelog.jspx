@@ -54,21 +54,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-					<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/google-analytics" page="/" />.</li>
-					<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-					<li>Updated version of <core:link book="/pages/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/resources/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/section/all" page="/" />.</li>
-					<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-					<li>Updated version of <core:link book="/view-all" page="/" />.</li>
-					<li>Updated version of <core:link book="/view-tree" page="/" />.</li>
-					<li>Updated version of <core:link book="/view-what-links-here" page="/" />.</li>
+					<li>New module <core:link book="/pages/all" page="/" />.</li>
 					<li>New module <core:link book="/resources/all" page="/" />.</li>
 					<li>Using managed dependencies:
 						<ol>
