@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T03:03:01-0500"
-		dateModified="2020-04-26T19:18:27-05:00"
+		dateModified="2020-04-27T06:13:32-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-all:pom.version}" />
@@ -54,8 +54,8 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{project.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/autogit" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/openfile" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/file/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/openfile/all" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/pagegraph" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
