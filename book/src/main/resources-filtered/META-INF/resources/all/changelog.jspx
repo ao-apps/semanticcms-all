@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T03:03:01-0500"
-		dateModified="2020-03-30T00:57:48-05:00"
+		dateModified="2020-04-28T04:35:26-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-all:pom.version}" />
@@ -59,6 +59,21 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.8.0"
+			datePublished="2020-04-28T04:35:26-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
+				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
