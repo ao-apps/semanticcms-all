@@ -29,7 +29,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.9.0-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.9.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS All</name>
@@ -52,7 +52,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.2.1${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.2.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
