@@ -210,10 +210,16 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-taglib</artifactId><version>0.1.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars</groupId><artifactId>d3js</artifactId><version>5.16.0</version>
+				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>5.16.0</version>
+			</dependency>
+			<dependency>
+				<groupId>org.webjars.npm</groupId><artifactId>dagre</artifactId><version>0.8.5</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars.npm</groupId><artifactId>dagre-d3</artifactId><version>0.6.4</version>
+			</dependency>
+			<dependency>
+				<groupId>org.webjars.npm</groupId><artifactId>graphlib</artifactId><version>2.1.8</version>
 			</dependency>
 			<dependency>
 				<groupId>joda-time</groupId><artifactId>joda-time-jsptags</artifactId><version>1.1.1</version>
@@ -222,6 +228,9 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>org.webjars</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
 			</dependency>
 			<!-- javaee-web-api-bom: <groupId>org.glassfish.web</groupId><artifactId>jstl-impl</artifactId> -->
+			<dependency>
+				<groupId>org.webjars.npm</groupId><artifactId>lodash</artifactId><version>4.17.20</version>
+			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-breadcrumblist-json-ld</artifactId><version>1.3.0${POST-SNAPSHOT}</version>
 			</dependency>
