@@ -178,7 +178,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.5.2${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.9.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
@@ -295,7 +295,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<!-- BOM -->
