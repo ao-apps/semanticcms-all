@@ -298,7 +298,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<!-- BOM -->
