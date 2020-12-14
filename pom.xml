@@ -301,7 +301,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 			</dependency>
 			<!-- Non-classpath Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId><version>1.8.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId><version>1.8.1${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
