@@ -311,7 +311,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
