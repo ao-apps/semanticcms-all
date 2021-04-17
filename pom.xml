@@ -290,7 +290,7 @@ along with semanticcms-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-taglib</artifactId><version>0.3.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>6.6.2</version>
+				<groupId>org.webjars.npm</groupId><artifactId>d3</artifactId><version>6.7.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars.npm</groupId><artifactId>dagre</artifactId><version>0.8.5</version>
