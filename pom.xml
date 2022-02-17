@@ -29,7 +29,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.2-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.13.2</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -72,7 +72,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
 		<connection>scm:git:git://github.com/ao-apps/semanticcms-all.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/semanticcms-all.git</developerConnection>
 		<url>https://github.com/ao-apps/semanticcms-all</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-all-1.13.2</tag>
 	</scm>
 
 	<issueManagement>
