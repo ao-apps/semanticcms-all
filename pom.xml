@@ -357,7 +357,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
-				<groupId>com.aoapps</groupId><artifactId>ao-fluent-html-util</artifactId><version>0.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoapps</groupId><artifactId>ao-fluent-html-util</artifactId><version>0.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.aoapps</groupId><artifactId>ao-javadoc-offline</artifactId><version>3.0.1${POST-SNAPSHOT}</version>
