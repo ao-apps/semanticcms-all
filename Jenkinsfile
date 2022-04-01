@@ -567,7 +567,7 @@ pipeline {
 						currentBuild.result == null
 						|| currentBuild.result == hudson.model.Result.SUCCESS
 						|| currentBuild.result == hudson.model.Result.UNSTABLE
-					) && fileExists('.gitmodules')
+					) && projectDir != '.' && fileExists('.gitmodules')
 				}
 			}
 			steps {
