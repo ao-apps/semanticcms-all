@@ -22,364 +22,364 @@ You should have received a copy of the GNU Lesser General Public License
 along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <jsp:root
-	xmlns:ao="https://oss.aoapps.com/taglib/"
-	xmlns:c="http://java.sun.com/jsp/jstl/core"
-	xmlns:changelog="https://semanticcms.com/changelog/taglib/"
-	xmlns:core="https://semanticcms.com/core/taglib/"
-	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
-	xmlns:jsp="http://java.sun.com/JSP/Page"
-	version="2.1"
+  xmlns:ao="https://oss.aoapps.com/taglib/"
+  xmlns:c="http://java.sun.com/jsp/jstl/core"
+  xmlns:changelog="https://semanticcms.com/changelog/taglib/"
+  xmlns:core="https://semanticcms.com/core/taglib/"
+  xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+  xmlns:jsp="http://java.sun.com/JSP/Page"
+  version="2.1"
 >
-	<jsp:directive.page language="java" pageEncoding="UTF-8" />
-	<jsp:directive.page session="false" />
-	<core:page
-		title="@{documented.name} Changelog"
-		shortTitle="Changelog"
-		tocLevels="1"
-		datePublished="2016-10-30T03:03:01-05:00"
-		dateModified="2022-03-21T05:50:15-05:00"
-	>
-		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
-			<changelog:release
-				projectName="@{documented.name}"
-				version="@{project.version}"
-				groupId="@{project.groupId}"
-				artifactId="@{documented.artifactId}"
-				repository="@{nexusUrl}content/repositories/snapshots/"
-				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>New module <core:link book="/pages/all" page="/" />.</li>
-					<li>New module <core:link book="/resources/all" page="/" />.</li>
-					<li>Updated dependencies.</li>
-				</ul>
-			</changelog:release>
-		</c:if>
+  <jsp:directive.page language="java" pageEncoding="UTF-8" />
+  <jsp:directive.page session="false" />
+  <core:page
+    title="@{documented.name} Changelog"
+    shortTitle="Changelog"
+    tocLevels="1"
+    datePublished="2016-10-30T03:03:01-05:00"
+    dateModified="2022-03-21T05:50:15-05:00"
+  >
+    <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
+      <changelog:release
+        projectName="@{documented.name}"
+        version="@{project.version}"
+        groupId="@{project.groupId}"
+        artifactId="@{documented.artifactId}"
+        repository="@{nexusUrl}content/repositories/snapshots/"
+        scmUrl="@{project.scm.url}"
+      >
+        <ul>
+          <li>New module <core:link book="/pages/all" page="/" />.</li>
+          <li>New module <core:link book="/resources/all" page="/" />.</li>
+          <li>Updated dependencies.</li>
+        </ul>
+      </changelog:release>
+    </c:if>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.13.2"
-			datePublished="2022-02-16T22:25:09-06:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.13.2"
+      datePublished="2022-02-16T22:25:09-06:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.13.1"
-			datePublished="2021-10-19T01:37:30-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated dependencies.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.13.1"
+      datePublished="2021-10-19T01:37:30-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated dependencies.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.13.0"
-			datePublished="2021-07-19T08:11:30-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
-				<li>Minimum Java version changed from 1.8 to 11.</li>
-				<li>
-					Now supports Java 9+ modules with included <code>module-info.class</code>. This project is an
-					aggregator module by using <code>requires transitive</code> for all included projects.
-				</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.13.0"
+      datePublished="2021-07-19T08:11:30-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
+        <li>Minimum Java version changed from 1.8 to 11.</li>
+        <li>
+          Now supports Java 9+ modules with included <code>module-info.class</code>. This project is an
+          aggregator module by using <code>requires transitive</code> for all included projects.
+        </li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.12.2"
-			datePublished="2021-03-19T05:33:52-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated dependencies.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.12.2"
+      datePublished="2021-03-19T05:33:52-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated dependencies.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.12.1"
-			datePublished="2020-12-14T07:49:17-06:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.12.1"
+      datePublished="2020-12-14T07:49:17-06:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.12.0"
-			datePublished="2020-12-08T12:21:30-06:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.12.0"
+      datePublished="2020-12-08T12:21:30-06:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.11.0"
-			datePublished="2020-11-28T01:30:22-06:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-				<li>Updated version of <core:link book="/section/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.11.0"
+      datePublished="2020-11-28T01:30:22-06:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/file/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+        <li>Updated version of <core:link book="/section/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.10.0"
-			datePublished="2020-06-30T12:18:59-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.10.0"
+      datePublished="2020-06-30T12:18:59-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.9.0"
-			datePublished="2020-06-11T07:17:55-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.9.0"
+      datePublished="2020-06-11T07:17:55-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.8.0"
-			datePublished="2020-04-28T04:35:26-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.8.0"
+      datePublished="2020-04-28T04:35:26-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/file/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.7.0"
-			datePublished="2020-03-30T00:57:48-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>
-					Reduced use of property substitutions in <code>pom.xml</code>.
-					This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
-				</li>
-				<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/google-analytics" page="/" />.</li>
-				<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-				<li>Updated version of <core:link book="/section/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-all" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-tree" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-what-links-here" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.7.0"
+      datePublished="2020-03-30T00:57:48-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>
+          Reduced use of property substitutions in <code>pom.xml</code>.
+          This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
+        </li>
+        <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/file/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/google-analytics" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+        <li>Updated version of <core:link book="/section/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-all" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-tree" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-what-links-here" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.6.0"
-			datePublished="2019-10-12T04:39:07-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/google-analytics" page="/" />.</li>
-				<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-				<li>Updated version of <core:link book="/section/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.6.0"
+      datePublished="2019-10-12T04:39:07-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/file/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/google-analytics" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+        <li>Updated version of <core:link book="/section/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.5.0"
-			datePublished="2019-06-23T01:34:51-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
-				<li>Updated version of <core:link book="/section/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-all" page="/" />.</li>
-				<li>Using managed dependencies:
-					<ol>
-						<li>This project uses managed dependencies.</li>
-						<li>This project's managed dependencies may also be imported by other projects.</li>
-					</ol>
-				</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.5.0"
+      datePublished="2019-06-23T01:34:51-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/pagegraph" page="/" />.</li>
+        <li>Updated version of <core:link book="/section/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-all" page="/" />.</li>
+        <li>Using managed dependencies:
+          <ol>
+            <li>This project uses managed dependencies.</li>
+            <li>This project's managed dependencies may also be imported by other projects.</li>
+          </ol>
+        </li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.4.0"
-			datePublished="2019-04-21T06:21:28-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Updated version of <core:link book="/core/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/dia/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/file/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/news/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
-				<li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
-				<li>Updated version of <core:link book="/view-all" page="/" />.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.4.0"
+      datePublished="2019-04-21T06:21:28-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/dia/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/file/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/openfile/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/tag-reference" page="/" />.</li>
+        <li>Updated version of <core:link book="/view-all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.3.2"
-			datePublished="2017-07-20T15:28:47-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>New release for bug fixes in underlying <ao:a href="https://oss.aoapps.com/encoding/">AO Encoding</ao:a> library.</li>
-				<li>Updated dependencies.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.3.2"
+      datePublished="2017-07-20T15:28:47-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>New release for bug fixes in underlying <ao:a href="https://oss.aoapps.com/encoding/">AO Encoding</ao:a> library.</li>
+        <li>Updated dependencies.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.3.1"
-			datePublished="2016-11-16T18:02:52-06:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>New <ao:a href="https://oss.aoapps.com/parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
-				<li>Project documentation moved to per-project book in <core:link book="/" page="/" /> format.</li>
-				<li>Added changelog as top-level project link.</li>
-				<li><core:link book="/changelog/taglib" page="/" /> module added to this "all" package.</li>
-				<li><core:link book="/tag-reference" page="/" /> module added to this "all" package.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.3.1"
+      datePublished="2016-11-16T18:02:52-06:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>New <ao:a href="https://oss.aoapps.com/parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
+        <li>Project documentation moved to per-project book in <core:link book="/" page="/" /> format.</li>
+        <li>Added changelog as top-level project link.</li>
+        <li><core:link book="/changelog/taglib" page="/" /> module added to this "all" package.</li>
+        <li><core:link book="/tag-reference" page="/" /> module added to this "all" package.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.3.0"
-			datePublished="2016-10-20T19:49:00-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Improved Javadoc formatting.</li>
-				<li>Improved README formatting.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.3.0"
+      datePublished="2016-10-20T19:49:00-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Improved Javadoc formatting.</li>
+        <li>Improved README formatting.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.2.0"
-			datePublished="2016-10-04T23:32:00-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Configured documentation urls.</li>
-				<li>Improved Javadoc formatting.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.2.0"
+      datePublished="2016-10-04T23:32:00-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Configured documentation urls.</li>
+        <li>Improved Javadoc formatting.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.1"
-			datePublished="2016-09-11T17:14:00-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Moved sitemaps to core.</li>
-				<li>Added newsfeeds.</li>
-			</ul>
-		</changelog:release>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.1"
+      datePublished="2016-09-11T17:14:00-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Moved sitemaps to core.</li>
+        <li>Added newsfeeds.</li>
+      </ul>
+    </changelog:release>
 
-		<changelog:release
-			projectName="@{documented.name}"
-			version="1.0"
-			datePublished="2016-09-03T10:58:00-05:00"
-			groupId="@{project.groupId}"
-			artifactId="@{documented.artifactId}"
-			scmUrl="@{project.scm.url}"
-		>
-			<ul>
-				<li>Added "all" packages for convenience.</li>
-			</ul>
-		</changelog:release>
-	</core:page>
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.0"
+      datePublished="2016-09-03T10:58:00-05:00"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Added "all" packages for convenience.</li>
+      </ul>
+    </changelog:release>
+  </core:page>
 </jsp:root>
