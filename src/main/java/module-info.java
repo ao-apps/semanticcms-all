@@ -30,4 +30,4 @@ module com.semanticcms.all {
   requires transitive com.semanticcms.openfile.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId>
   requires transitive com.semanticcms.section.all; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId>
   requires transitive com.semanticcms.tagreference; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
