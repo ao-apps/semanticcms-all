@@ -150,7 +150,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.7.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-all</artifactId><version>1.7.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-all</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
