@@ -109,6 +109,20 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
   <build>
     <plugins>
       <plugin>
+        <groupId>org.sonatype.ossindex.maven</groupId><artifactId>ossindex-maven-plugin</artifactId>
+        <configuration>
+          <excludeVulnerabilityIds>
+            <!--
+              Exclude sonatype-2020-0243: https://github.com/JodaOrg/joda-time-jsptags/pull/2
+              This is already mitigated by our PGP verification of all downloaded artifacts.
+              Plus, we always directly declare all transitive dependencies.
+              TODO: Remove in joda-time:joda-time-jsptags > 1.1.1
+            -->
+            <exclude>sonatype-2020-0243</exclude>
+          </excludeVulnerabilityIds>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
