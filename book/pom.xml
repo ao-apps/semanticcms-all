@@ -36,15 +36,15 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     <module.name>com.semanticcms.all.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-all</documented.artifactId>
-    <documented.name>SemanticCMS All²</documented.name>
+    <documented.name>SemanticCMS All</documented.name>
     <documented.description>Convenience POM to include most SemanticCMS features, not including documentation, AutoGit, or theme.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS All² Book</name>
+  <name>SemanticCMS All Book</name>
   <url>https://semanticcms.com/all/</url>
-  <description>Documentation for SemanticCMS All² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS All in SemanticCMS format.</description>
   <inceptionYear>2016</inceptionYear>
 
   <licenses>
