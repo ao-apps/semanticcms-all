@@ -126,14 +126,15 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-core-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-dia-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-file-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-news-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-openfile-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-section-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-tag-reference</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-changelog-taglib</dependency>
+            <dependency>com.semanticcms:semanticcms-core-all</dependency>
+            <dependency>com.semanticcms:semanticcms-dia-all</dependency>
+            <dependency>com.semanticcms:semanticcms-file-all</dependency>
+            <dependency>com.semanticcms:semanticcms-news-all</dependency>
+            <dependency>com.semanticcms:semanticcms-openfile-all</dependency>
+            <dependency>com.semanticcms:semanticcms-section-all</dependency>
+            <dependency>com.semanticcms:semanticcms-tag-reference</dependency>
             <!-- Runtime Direct -->
             <dependency>com.semanticcms:semanticcms-google-analytics</dependency>
             <dependency>com.semanticcms:semanticcms-pagegraph</dependency>
