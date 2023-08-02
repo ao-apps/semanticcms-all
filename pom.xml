@@ -175,7 +175,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.1${POST-SNAPSHOT}</version>
       </dependency>
       <!-- Transitive -->
       <dependency>
