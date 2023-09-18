@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-30T03:03:01-05:00"
-    dateModified="2023-09-16T18:59:49Z"
+    dateModified="2023-09-18T03:16:04Z"
   >
     <c:set var="latestRelease" value="1.13.3" />
     <c:if test="${
@@ -56,7 +56,9 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <ul>
           <li>New module <core:link book="/pages/all" page="/" />.</li>
           <li>New module <core:link book="/resources/all" page="/" />.</li>
+          <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
           <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+          <li>Updated version of <core:link book="/news/all" page="/" />.</li>
         </ul>
       </changelog:release>
     </c:if>
