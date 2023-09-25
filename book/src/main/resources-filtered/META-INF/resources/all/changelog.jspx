@@ -37,9 +37,9 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-30T03:03:01-05:00"
-    dateModified="2023-09-18T03:16:04Z"
+    dateModified="2023-09-25T07:56:17Z"
   >
-    <c:set var="latestRelease" value="1.13.3" />
+    <c:set var="latestRelease" value="1.14.0" />
     <c:if test="${
       fn:endsWith('@{project.version}', '-SNAPSHOT')
       and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
@@ -56,12 +56,24 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <ul>
           <li>New module <core:link book="/pages/all" page="/" />.</li>
           <li>New module <core:link book="/resources/all" page="/" />.</li>
-          <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
-          <li>Updated version of <core:link book="/core/all" page="/" />.</li>
-          <li>Updated version of <core:link book="/news/all" page="/" />.</li>
         </ul>
       </changelog:release>
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.14.0"
+      datePublished="2023-09-25T07:56:17Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/changelog/taglib" page="/" />.</li>
+        <li>Updated version of <core:link book="/core/all" page="/" />.</li>
+        <li>Updated version of <core:link book="/news/all" page="/" />.</li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
