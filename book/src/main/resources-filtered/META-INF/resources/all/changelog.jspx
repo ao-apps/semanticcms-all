@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-30T03:03:01-05:00"
-    dateModified="2023-09-25T07:56:17Z"
+    dateModified="2023-09-26T19:00:16Z"
   >
     <c:set var="latestRelease" value="1.14.0" />
     <c:if test="${
@@ -56,6 +56,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <ul>
           <li>New module <core:link book="/pages/all" page="/" />.</li>
           <li>New module <core:link book="/resources/all" page="/" />.</li>
+          <li>Added script support for <ao:a href="https://oss.aoapps.com/web-resources/">AO Web Resources</ao:a>.</li>
         </ul>
       </changelog:release>
     </c:if>
