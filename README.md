@@ -21,7 +21,7 @@ Convenience POM to include most [SemanticCMS](https://github.com/ao-apps/semanti
 ## Project Links
 * [Project Home](https://semanticcms.com/all/)
 * [Changelog](https://semanticcms.com/all/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-all)
 * [GitHub](https://github.com/ao-apps/semanticcms-all)
 
 ## Modules Included
