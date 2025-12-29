@@ -37,7 +37,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-30T03:03:01-05:00"
-    dateModified="2025-07-02T23:05:45Z"
+    dateModified="2025-12-27T15:45:05Z"
   >
     <c:set var="latestRelease" value="1.14.0" />
     <c:if test="${
@@ -53,6 +53,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         scmUrl="@{project.scm.url}"
       >
         <ul>
+          <li>Minimum Java version changed from 11 to 17.</li>
           <li>Added script support for <ao:a href="https://oss.aoapps.com/web-resources/">AO Web Resources</ao:a>.</li>
           <li>Removed dependency on jQuery to improve mobile browser response.</li>
           <li>
