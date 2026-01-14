@@ -120,12 +120,6 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
             <dependency>com.semanticcms:semanticcms-section-all</dependency>
             <dependency>com.semanticcms:semanticcms-tag-reference</dependency>
           </usedDependencies>
-          <ignoredDependencies>
-            <!-- No "module-info.java" in some release builds -->
-            <dependency>com.aoapps:ao-encoding</dependency>
-            <dependency>com.aoapps:ao-hodgepodge</dependency>
-            <dependency>com.semanticcms:semanticcms-changelog-taglib</dependency>
-          </ignoredDependencies>
         </configuration>
       </plugin>
     </plugins>
