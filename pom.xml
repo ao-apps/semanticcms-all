@@ -29,7 +29,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.16.0-SNAPSHOT</version>
+  <groupId>com.semanticcms</groupId><artifactId>semanticcms-all</artifactId><version>1.22.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -167,22 +167,22 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-changelog-taglib</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId><version>1.12.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-all</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.8.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-all</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>1.9.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-all</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.8.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-tag-reference</artifactId><version>1.10.2${POST-SNAPSHOT}</version>
@@ -285,7 +285,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-servlet</artifactId><version>1.9.3${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.10.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-file-model</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
@@ -303,10 +303,10 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-servlet</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-taglib</artifactId><version>1.8.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-taglib</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.11.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
@@ -375,13 +375,13 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-canonical</artifactId><version>1.3.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-sitemap</artifactId><version>1.16.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-sitemap</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-style</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-theme-base</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-view-content</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
@@ -405,7 +405,7 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-style</artifactId><version>1.4.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-view</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-view</artifactId><version>1.22.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
