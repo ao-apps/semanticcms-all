@@ -37,9 +37,9 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-30T03:03:01-05:00"
-    dateModified="2026-05-25T23:15:05Z"
+    dateModified="2026-05-26T22:27:57Z"
   >
-    <c:set var="latestRelease" value="2.0.1" />
+    <c:set var="latestRelease" value="2.1.0" />
     <c:if test="${
       fn:endsWith('@{project.version}', '-SNAPSHOT')
       and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
@@ -51,12 +51,21 @@ along with semanticcms-all.  If not, see <https://www.gnu.org/licenses/>.
         groupId="@{project.groupId}"
         artifactId="@{documented.artifactId}"
         scmUrl="@{project.scm.url}"
-      >
-        <ul>
-          <li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
-        </ul>
-      </changelog:release>
+      />
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="2.1.0"
+      datePublished="2026-05-26T22:27:57Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Updated version of <core:link book="/tag-reference" page="/index.jspx" />.</li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
